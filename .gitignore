@@ -3,6 +3,8 @@
 /CGSDNet-Depth/dataset/*
 !/CGSDNet-Depth/dataset/README.md
 
+.vscode
+
 # python ignore below
 
 # Byte-compiled / optimized / DLL files
