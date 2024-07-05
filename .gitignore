@@ -1,5 +1,7 @@
-/CGSDNet-Depth/ckpt/
-/CGSDNet-Depth/dataset/
+/CGSDNet-Depth/ckpt/*
+!/CGSDNet-Depth/ckpt/README.md
+/CGSDNet-Depth/dataset/*
+!/CGSDNet-Depth/dataset/README.md
 
 # python ignore below
 
