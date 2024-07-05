@@ -1,0 +1,8 @@
+torch==1.13.0
+torchvision==0.14.0
+torchaudio==0.13.0
+numpy==1.24.2
+pillow==9.0.1
+opencv-python==4.7.0.72
+matplotlib==3.5.1
+tqdm
