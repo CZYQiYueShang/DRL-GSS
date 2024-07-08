@@ -17,7 +17,7 @@
  *
  */
 
-#include "pointcloudmping.h"
+#include "pointcloudmapping.h"
 #include <KeyFrame.h>
 #include <opencv2/highgui/highgui.hpp>
 #include <pcl/visualization/cloud_viewer.h>

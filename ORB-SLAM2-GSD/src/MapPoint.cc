@@ -421,3 +421,4 @@ int MapPoint::PredictScale(const float &currentDist, Frame* pF)
 
     return nScale;
 }
+}
