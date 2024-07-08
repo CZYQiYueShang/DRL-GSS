@@ -1,41 +1,20 @@
 # ORB-SLAM2-GSD
+This is a project based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [ORBSLAM2_with_pointcloud_map](https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map).
 
 ### Dataset
-Please download our **GS RGB-D** at [here](https://drive.google.com/file/d/1GJxv5ICyocRUQhu3hG2LMnpaq1ee0dvG/view?usp=drive_link).
+Please download our `GS RGB-D` at [here](https://drive.google.com/file/d/1GJxv5ICyocRUQhu3hG2LMnpaq1ee0dvG/view?usp=drive_link).
 
+Unzip it in the current folder after downloading.
+
+Use `infer_GS-RGB-D.py` in [CGSDNet-Depth]() to perform glass surface segmentation and depth estimation on the sequences in `GS RGB-D`.
 
 ### Build
+The build process is the same as [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2).
 
-### build the whole project ( inclouding binary loading tools ):
-
-Before all the cmd, **DONOT** forget to download the Vocabulary form the [origin repo](https://github.com/raulmur/ORB_SLAM2) and place it into dir ./Vocabulary
-
-```bash
-     cd YourDirectory/ORBSLAM2_with_pointcloud_map
-     chmod +x build.sh
-     ./build.sh
+Since point cloud related operations have been added, the PCL library file needs to be installed.
+```
+sudo apt install libpcl-dev
 ```
 
-### only build the ORB_SLAM2 mode with pcl
+### Test
 
-```bash
-    cd YourDirectory/ORBSLAM2_with_pointcloud_map/ORB_SLAM2_modified
-    mkdir build
-    cd build
-    cmake ..
-    make -j
-```
-
-## Run:
-
-```bash
-    ./run/rgbd_tum Vocabulary/ORBvoc.bin path_to_settings path_to_sequence path_to_association
-```
-
-# What are modified:
-
-* changing the vocabulary loading method into binary mod
-
-* adding a pointcloud viewer( realized by adding a viewer thread )
-
-* changing the CMakeLists.txt that all the executable files are placed in ./bin
