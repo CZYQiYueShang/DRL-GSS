@@ -6,7 +6,7 @@ Please download our `GS RGB-D` at [here](https://drive.google.com/file/d/1GJxv5I
 
 Unzip it in the current folder after downloading.
 
-Use `infer_GS-RGB-D.py` in [CGSDNet-Depth]() to perform glass surface segmentation and depth estimation on the sequences in `GS RGB-D`.
+Use `infer_GS-RGB-D.py` in [CGSDNet-Depth](https://github.com/CZYQiYueShang/DRL-GSS/tree/main/CGSDNet-Depth) to perform glass surface segmentation and depth estimation on the sequences in `GS RGB-D`.
 
 ### Build
 The build process is the same as [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2).
@@ -17,4 +17,7 @@ sudo apt install libpcl-dev
 ```
 
 ### Test
-
+Run the `test.sh` to test.
+```
+./test.sh
+```
