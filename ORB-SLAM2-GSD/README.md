@@ -1,6 +1,10 @@
-# Update for unpacked ROB_SLAM with pcl view repo
+# ORB-SLAM2-GSD
 
-## build:
+### Dataset
+Please download our **GS RGB-D** at [here](https://drive.google.com/file/d/1GJxv5ICyocRUQhu3hG2LMnpaq1ee0dvG/view?usp=drive_link).
+
+
+### Build
 
 ### build the whole project ( inclouding binary loading tools ):
 
