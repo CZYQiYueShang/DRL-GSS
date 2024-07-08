@@ -1,4 +1,4 @@
-# DSL-GSS
+# DRL-GSS
 
 ## Dense Reconstruction and Localization in Scenes with Glass Surfaces Based on ORB-SLAM2
 
