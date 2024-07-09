@@ -2,7 +2,7 @@
 This is a project based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2) and [ORBSLAM2_with_pointcloud_map](https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map).
 
 ### Dataset
-Please download our `GS RGB-D` at [here](https://drive.google.com/file/d/1GJxv5ICyocRUQhu3hG2LMnpaq1ee0dvG/view?usp=drive_link).
+Please download our `GS RGB-D` dataset at [here](https://drive.google.com/file/d/1GJxv5ICyocRUQhu3hG2LMnpaq1ee0dvG/view?usp=drive_link).
 
 Unzip it in the current folder after downloading.
 
