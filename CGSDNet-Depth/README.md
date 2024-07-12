@@ -4,7 +4,7 @@
 Please download from the corresponding pages of [GDD](https://github.com/Mhaiyang/CVPR2020_GDNet) and [GW-Depth](https://github.com/ViktorLiang/GW-Depth) and put them in the `dataset` folder.
 
 ### Requirements
-* Python 3.9
+* Python 3.10
 * CUDA 11.7
 ```
 pip install -r requirements.txt
